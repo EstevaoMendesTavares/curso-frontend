@@ -1,0 +1,105 @@
+<!DOCYTPE html>
+<html lang="pt_br">
+	<head>
+		<title>Exercicio</title>
+		<meta charset= "UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+*{
+	font-family: "Segoe ui";
+}
+
+form div {
+	margin: 10px;
+	padding: 5px;
+}
+		</style>
+	</head>
+	<body>
+
+		<header>
+			<h2>Curso Front-end - HTML</h2>
+		</header>
+
+		<section>
+
+			<nav>
+				<ul>
+					<li><a href="05-Layouts.html">Home</li>
+					<li><a href="#sobre">Sobre</li>
+					<li><a href="#contato">Contato</li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<h1>Contato</h1>
+				<p>Preencha os campos abaixo</p>
+
+				<form method="post">
+
+					<div>
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+
+					<div>
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>
+
+					<div>
+						<label for="mensagem">Mensagem</label><br>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea>
+					</div>
+
+					<div>
+						<p>
+							<input type="submit">
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label> "Qual linguagem você prefere?"</label><br>
+							<input type="radio" name="linguagens"> HTML
+							<input type="radio" name="linguagens"> CSS
+							<input type="radio" name="linguagens"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label> "Quais linguagens você conhece?"</label><br>
+							<input type="checkbox" name="linguagens"> HTML
+							<input type="checkbox" name="linguagens"> CSS
+							<input type="checkbox" name="linguagens"> JavaScript
+						</p>
+					</div>
+
+					<div>
+						<p>
+							<label> "Qual a sua cor favorita?"</label><br>
+							<select>
+								<option>Azul</option>
+								<option>Verde</option>
+								<option>Amarelo</option>
+							</select>
+						</p>
+					</div>
+
+
+				</form>
+
+			</article>
+
+		</section>
+
+		<footer>
+
+			<p>Desenvolvido por Estêvão</p>
+
+		</footer>
+
+	</body>
+</html>
